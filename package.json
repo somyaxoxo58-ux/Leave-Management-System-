@@ -1,0 +1,79 @@
+﻿{
+
+&#x20; "name": "leave-management-system",
+
+&#x20; "version": "1.0.0",
+
+&#x20; "description": "Leave Management System for staff members",
+
+&#x20; "type": "module",
+
+&#x20; "main": "server.js",
+
+&#x20; "scripts": {
+
+&#x20;   "start": "node server.js",
+
+&#x20;   "dev": "nodemon server.js",
+
+&#x20;   "client": "cd client \&\& npm start",
+
+&#x20;   "build": "cd client \&\& npm run build"
+
+&#x20; },
+
+&#x20; "keywords": \[
+
+&#x20;   "leave",
+
+&#x20;   "management",
+
+&#x20;   "employee",
+
+&#x20;   "admin",
+
+&#x20;   "attendance"
+
+&#x20; ],
+
+&#x20; "author": "somyaxoxo58-ux",
+
+&#x20; "license": "MIT",
+
+&#x20; "dependencies": {
+
+&#x20;   "axios": "^1.6.2",
+
+&#x20;   "bcryptjs": "^2.4.3",
+
+&#x20;   "cors": "^2.8.5",
+
+&#x20;   "dotenv": "^16.0.3",
+
+&#x20;   "express": "^4.18.2",
+
+&#x20;   "express-session": "^1.17.3",
+
+&#x20;   "exceljs": "^4.3.0",
+
+&#x20;   "jsonwebtoken": "^9.0.0",
+
+&#x20;   "mongoose": "^7.0.0",
+
+&#x20;   "nodemailer": "^6.9.1",
+
+&#x20;   "pdfkit": "^0.13.0",
+
+&#x20;   "qrcode": "^1.5.3",
+
+&#x20;   "speakeasy": "^2.0.0"
+
+&#x20; },
+
+&#x20; "devDependencies": {
+
+&#x20;   "nodemon": "^2.0.22"
+
+&#x20; }
+
+}
